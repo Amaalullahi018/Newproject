@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Event Calendar</h1>
+  <div class="calendar" id="calendar"></div>
+
+  <div class="event-list">
+    <h2 id="selected-date">Select a date</h2>
+    <ul id="events"></ul>
+    <input type="text" id="event-input" placeholder="Add an event">
+    <button onclick="addEvent()">Add Event</button>
+  </div>
+
 </body>
 <script src="/javaScript/script.js"></script>
 </html>
